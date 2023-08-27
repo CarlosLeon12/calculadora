@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.umg{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    width: 25%; 
+    height: 25%;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Times New Roman", serif;
+}
+
+.logo{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    width: 15%; 
+    height: 25%;
+    text-align: arial, helvetica;
+
+}
+.autor{
+    color: aliceblue;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+.carne{
+    color: aliceblue;
+    position: absolute;
+    top: 95%;
+    left: 10%;
+}
+.main{
+    min-height: 100vh;
+    background-color: #0314ff;
+    display: grid;
+    place-content: center;
+}
+.calculadora{
+    background-color: #ffffff;
+    color : white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    gap: .5rem;
+}
+.pantalla{
+    grid-column: 1 / 5;
+    background-color: #969292;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #727272;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: "Times New Roman", serif;
+}
+.btn:hover{
+    background-color: #ffffff;
+}
+#cero{
+    grid-column: span 2;
+}
+#igual{
+    grid-row: span 2;
+    background-color: rgb(141, 138, 138);
+}
+#igual:hover{
+    background-color: #727272;
+}
+
